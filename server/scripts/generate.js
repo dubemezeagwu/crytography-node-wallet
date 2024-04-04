@@ -1,16 +1,9 @@
-const { secp256k1 } = require("ethereum-cryptography/secp256k1");
-const { keccak256 } = require("ethereum-cryptography/keccak");
+const secp = require("ethereum-cryptography/secp256k1");
 const { toHex } = require("ethereum-cryptography/utils");
 
-
-function getAddress (publicKey) {
-  return keccak256(publicKey.slice(1).slice(-20));
-}
-const privateKey = secp256k1.utils.randomPrivateKey();
+const privateKey = secp.utils.randomPrivateKey();
 console.log("private-key:", toHex(privateKey));
 
-const publicKey = secp256k1.getPublicKey(privateKey);
+const publicKey = secp.getPublicKey(privateKey);
 console.log("public-key:", toHex(publicKey));
 
-const address = getAddress(publicKey);
-console.log("owner-address:", toHex(address));
