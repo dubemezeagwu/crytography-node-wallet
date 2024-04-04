@@ -13,8 +13,8 @@ This is a demo-project submission for the Alchemy University Ethereum Developer 
 - Axios
 
 ### Video instructions
-For an overview of this project as well as getting started instructions, check out the following [video]: 
-(https://www.loom.com/share/786ed8ac2a394fcb9206e8276a391a8f?sid=95413b01-77f6-43ce-9007-3f3800089cf9)
+For an overview of this project as well as getting started instructions, check out the following video:
+https://www.loom.com/share/786ed8ac2a394fcb9206e8276a391a8f?sid=95413b01-77f6-43ce-9007-3f3800089cf9
 
  
 ### Client
